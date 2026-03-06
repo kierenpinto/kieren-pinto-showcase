@@ -12,15 +12,15 @@ const ContactSection = () => {
           Have a project in mind or just want to say hi? I'd love to hear from you.
         </p>
         <div className="flex items-center gap-6">
-          <a href="mailto:hello@kierenpinto.com" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-mono text-sm">
+          <a className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-mono text-sm" href="mailto:kieren@integrasoft.com.au">
             <Mail size={18} />
             email
           </a>
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-mono text-sm">
+          <a target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-mono text-sm" href="https://github.com/kierenpinto">
             <Github size={18} />
             github
           </a>
-          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-mono text-sm">
+          <a target="_blank" rel="noopener noreferrer" className="flex items-center gap-2 text-muted-foreground hover:text-primary transition-colors font-mono text-sm" href="https://linkedin.com//in/kieren-pinto-2851aba6/">
             <Linkedin size={18} />
             linkedin
           </a>
@@ -32,8 +32,8 @@ const ContactSection = () => {
           © 2026 Kieren Pinto. Built with care.
         </p>
       </div>
-    </section>
-  );
+    </section>);
+
 };
 
 export default ContactSection;
